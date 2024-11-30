@@ -40,3 +40,13 @@
 .dots .dot.active {
     background: var(--white);
 }
+
+@media (max-width: 1018px) {
+    .footer {
+        padding: 20px 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+}

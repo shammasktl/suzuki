@@ -32,3 +32,22 @@
     color: var(--red);
     cursor: pointer;
 }
+
+.toggles {
+    display: block;
+}
+
+@media (max-width: 1018px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+    .toggles {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .links {
+        display: none;
+    }
+}

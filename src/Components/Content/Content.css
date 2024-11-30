@@ -55,10 +55,23 @@
 }
 
 @keyframes move {
-    0%  {
+    0% {
         transform: translateX(0);
     }
-    100%  {
+
+    100% {
         transform: translateX(20);
+    }
+}
+
+@media (max-width: 1018px) {
+    .bike {
+        max-width: 100%;
+    }
+}
+
+@media (main-width:320px) {
+    .content h2 {
+        font-size: 3em;
     }
 }
