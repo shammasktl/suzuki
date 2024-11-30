@@ -1,0 +1,21 @@
+#main {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(#1c1c1c,#323232);
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main::before {
+    content: "Adventure";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16vw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.05);
+}

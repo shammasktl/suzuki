@@ -1,0 +1,42 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.social li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    color: var(--red);
+}
+
+.dots {
+    display: flex;
+}
+
+.dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.dots .dot.active {
+    background: var(--white);
+}

@@ -1,0 +1,34 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.links ul li a {
+    position: relative;
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.25s;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.links ul li a:hover {
+    color: var(--red);
+    cursor: pointer;
+}
