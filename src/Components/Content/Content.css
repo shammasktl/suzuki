@@ -20,7 +20,10 @@
 }
 
 .btn {
-    display: inline-block;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
     background-color: var(--red);
     color: var(--white);
     text-decoration: none;
@@ -31,10 +34,30 @@
     transition: 0.25s;
 }
 
+.btn span {
+    visibility: hidden;
+}
+
+.btn:hover span {
+    visibility: visible;
+    font-size: 1.5rem;
+    transition: 0.25s;
+    animation: move 0.9s linear;
+}
+
 .btn:hover {
     letter-spacing: 4px;
 }
 
 .content .bike {
     max-width: 80%;
+}
+
+@keyframes move {
+    0%  {
+        transform: translateX(0);
+    }
+    100%  {
+        transform: translateX(20);
+    }
 }
