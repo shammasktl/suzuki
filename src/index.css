@@ -1,6 +1,6 @@
 #main {
     position: relative;
-    min-height: 100vh;
+    min-height: 110vh;
     background: linear-gradient(#1c1c1c,#323232);
     padding: 30px 100px;
     display: flex;
